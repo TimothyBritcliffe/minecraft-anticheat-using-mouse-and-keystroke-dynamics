@@ -6,3 +6,6 @@
 
 def key_log():
     pass
+
+def generate_csv(data):
+    pass

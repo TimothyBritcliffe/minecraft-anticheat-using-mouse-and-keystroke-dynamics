@@ -21,7 +21,7 @@ def mouse_log():
         writer = csv.writer(file)
         writer.writerow(field_names)
         mouse.hook(lambda event: event_handler(event, writer))
-        # mouse.wait(button="right", target_types=("down",)) #I wasn't too sure ont his so Im just trying to make sure and I got an online refrence for this, but not sure if this si the correct implementation
+        mouse.wait(button="right", target_types=("down",)) #I wasn't too sure ont his so Im just trying to make sure and I got an online refrence for this, but not sure if this si the correct implementation
         
 
 if __name__ == "__main__":
